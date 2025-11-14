@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow — Ускорьте ваш бизнес с ИИ</title>
+    <meta name="description" content="TechFlow — платформа на базе ИИ для автоматизации и роста бизнеса.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- jQuery + jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+
+    <!-- Наши файлы -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Tech<span>Flow</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#features" class="nav-link">Возможности</a></li>
+                    <li><a href="#tabs" class="nav-link">Вкладки</a></li>
+                    <li><a href="#quote" class="nav-link">Цитата</a></li>
+                    <li><a href="#draggable" class="nav-link">Перетаскивание</a></li>
+                </ul>
+                <a href="#signup" class="cta-button">Начать</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>ИИ, который растит ваш бизнес</h1>
+            <p>Автоматизация, аналитика, рост — всё в одной платформе.</p>
+            <a href="#signup" class="btn-primary">Попробовать бесплатно</a>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2>Почему TechFlow?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">Автоматизация</div>
+                    <h3>Умная автоматизация</h3>
+                    <p>Экономьте до 30 часов в неделю.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">Аналитика</div>
+                    <h3>Прогнозы с точностью 94%</h3>
+                    <p>Знайте, что будет завтра.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">Рост</div>
+                    <h3>Персональный рост</h3>
+                    <p>Стратегии под ваш бизнес.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Вкладки -->
+    <section id="tabs" class="section">
+        <div class="container">
+            <h2>Вкладки с контентом</h2>
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="tab1">Аналитика</button>
+                    <button class="tab-btn" data-tab="tab2">Автоматизация</button>
+                    <button class="tab-btn" data-tab="tab3">Интеграции</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="tab1">
+                        <h3>Глубокая аналитика в реальном времени</h3>
+                        <p>Собираем данные из всех источников и показываем, где вы теряете деньги.</p>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <h3>Автоматизация рутинных задач</h3>
+                        <p>От писем и отчётов до обработки лидов — всё на автопилоте.</p>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <h3>300+ готовых интеграций</h3>
+                        <p>CRM, Google, Slack, Telegram — подключайте за 1 клик.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Цитата из API -->
+    <section id="quote" class="section">
+        <div class="container">
+            <h2>Мотивация дня</h2>
+            <div class="quote-box">
+                <p class="quote-text">Загрузка цитаты...</p>
+                <p class="quote-author"></p>
+                <button id="reload-quote" class="btn-secondary">Обновить</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Перетаскивание -->
+    <section id="draggable" class="section">
+        <div class="container">
+            <h2>Перетаскивайте карточки</h2>
+            <p>Используйте jQuery UI Draggable</p>
+            <div class="draggable-container">
+                <div class="draggable-card" style="background: #6366f1; color: white;">Карточка 1</div>
+                <div class="draggable-card" style="background: #10b981; color: white;">Карточка 2</div>
+                <div class="draggable-card" style="background: #f59e0b; color: white;">Карточка 3</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>© 2025 TechFlow. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
